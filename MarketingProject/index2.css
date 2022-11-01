@@ -1,0 +1,112 @@
+#content {
+  display: flex;
+  width: 91%;
+  margin: 0 auto;
+  height: 95vh;
+}
+#content > .content-subscribe {
+  width: 50%;
+  font-family: "Poppins", sans-serif;
+  /* background-color: burlywood; */
+  margin-top: 3%;
+}
+#content > .content-subscribe > div > h1 {
+  font-size: 60px;
+  color: white;
+  font-family: "Kanit", sans-serif;
+}
+#content > .content-subscribe > div > .sub-h1 {
+  color: rgb(237, 176, 10);
+}
+#content > .content-subscribe > div > p {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+input {
+  font-size: 30px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  border: none;
+}
+input:focus{
+  background-color: rgb(166, 252, 143);
+}
+input::placeholder {
+  font-size: 23px;
+  padding-left: 10%;
+}
+button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(237, 176, 10);
+}
+.message {
+  position: absolute;
+  color: rgb(237, 176, 10);
+  top: 0;
+  font-size: 40px;
+}
+.img {
+  margin: 0 auto;
+}
+.img > figure > img {
+  margin-top: 50px;
+  margin-left: 80px;
+  height: 500px;
+  width: 600px;
+}
+.rocket {
+  color: yellow;
+}
+.slide-A {
+  height: 10px;
+  width: 200px;
+  background-color: grey;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 5%;
+  left: 45%;
+}
+.slide-a {
+  height: 10px;
+  width: 50px;
+  background-color: rgb(237, 176, 10);
+  border-radius: 20px;
+  margin-left: 30px;
+}
+.img >.rocket {
+   font-size: 40px;
+  right: 35%;
+  top: 30%;
+  position: absolute;
+  color: rgb(237, 176, 10);
+}
+ .img >.message {
+   font-size: 40px;
+  right: 45%;
+  top: 75%;
+  position: absolute;
+  color: rgb(237, 176, 10);
+}
+.img >.bag {
+   font-size: 40px;
+  right: 2%;
+  top: 90%;
+  position: absolute;
+  color: rgb(237, 176, 10);
+}
+.dropdown{
+    top: 6%;
+    color: rgb(237, 176, 10);
+    position: absolute;
+    left: 69%;
+}
+.dropdown-right{
+    color: #000;
+    position: absolute;
+    bottom: 16.6%;
+    left: 10.6%;
+    z-index: 5;
+}
